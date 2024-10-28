@@ -5,7 +5,6 @@
  */
 var mergeAlternately = function (word1, word2) {
   const length = word1.length >= word2.length ? word1.length : word2.length;
-  console.log(length);
   const ArrWord1 = word1.split("");
   const ArrWord2 = word2.split("");
   let result = [];
